@@ -1,5 +1,61 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #0078d4;
+    color: #fff;
+    padding: 20px 0;
     text-align: center;
-    background-color: #f0f0f0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0078d4;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #0078d4;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #0078d4;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
